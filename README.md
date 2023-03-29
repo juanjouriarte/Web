@@ -3,4 +3,5 @@
 ## Repositorio con todos los proyectos del ramo Tecnología y Aplicaciones Web (2023-1)
 
 * Tareas
-  + Tarea 1 (Viernes 30 Marzo 2023) :ballot_box_with_check:
+  + Tarea 1 (Viernes 30 Marzo 2023) :white_check_mark:
+
