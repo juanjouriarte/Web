@@ -8,21 +8,25 @@
     <link rel="stylesheet" href="src/assets/styles/index.css">
 </head>
 <body>
-    <div class="navbar">
-        <nav>
-            <h2 class="logo"><span class="logo">Cars</span></h2>
-            <ul class="links">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="src/views/content.html">Contenido</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo">BEST<strong> CARS</strong></div>
+        <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="src/views/content.html">Content</a></li>
+            <li><a href="src/views/about.html">About</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+    <div class="parrafo">
+        <h1 class="bienvenida">Bienvenido a la mejor Página de Autos del Mundo</h1>
     </div>
     <div class="contenedor">
         <img src="src/assets/imgs/batmancar.jpg" alt="Rayo MacQueen" class="macqueen">
-    </div>
-    <div class="parrafo">
-        <h1 class="bienvenida">Bienvenido a la mejor Página de Autos del Mundo</h1>
     </div>
     <div class="div-footer">
         <footer class="footer">
