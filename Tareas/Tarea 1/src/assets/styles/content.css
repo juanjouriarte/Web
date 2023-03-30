@@ -2,6 +2,25 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    /* background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%); */
+    background-color: #2b333c;
+    background-image: linear-gradient(336deg, #2b333c 0%, #323e43 37%, #14171c 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
 
 nav{
     display: flex;
@@ -54,13 +73,6 @@ section {
     flex-wrap: wrap;
     margin: 0 20% 0 20%;
 }
-
-body {
-    /* solid background */
-    width: 100%;
-    background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-  }
   
   .container {
     backdrop-filter: blur(16px) saturate(180%);
@@ -90,7 +102,6 @@ body {
   }
   
   .banner-image {
-    background-image: url(https://images.unsplash.com/photo-1641326201918-3cafc641038e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -98,12 +109,37 @@ body {
     border-radius: 12px;
     border: 1px solid rgba(255,255,255, 0.255)
   }
+
+  #supra {
+    background-image: url(../imgs/supra.avif);
+
+  }
+
+  #ford {
+    background-image: url(../imgs/mustang.jpeg);
+  }
+
+  #volkswagen {
+    background-image: url(../imgs/volkswagen.jpg);
+  }
+  #corvette {
+    background-image: url(../imgs/corvette.jpeg);
+  }
+
+  #porche {
+    background-image: url(../imgs/porche.jpeg);
+  }
   
   h1{
     font-family: 'Righteous', sans-serif;
     color: rgba(255,255,255,0.98);
     text-transform: uppercase;
     font-size: 2.4rem;
+    max-width: 100%;
+  }
+
+  .h1-pequeño {
+    font-size: 1.7rem;
   }
   
   p {
@@ -115,51 +151,78 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
   }
-  
-  .button-wrapper{
-    margin-top: 18px;
+
+  .informacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    /* grid-template-columns: repeat(auto-fill,minmax(200px, 30%)); */
+    flex-wrap: wrap;
+  }
+
+  .description {
+    max-width: 300px;
+    overflow: auto;
+    margin: 0 auto;
+  }
+
+  p {
+    margin: 0 1em 1em 1em;
   }
   
-  .btn {
-    border: none;
-    padding: 12px 24px;
-    border-radius: 24px;
-    font-size: 12px;
-    font-size: 0.8rem;  
-    letter-spacing: 2px;  
-    cursor: pointer;
+  .container:hover .ano ,.container:hover .description-info{
+    color:#d56c16;
   }
-  
-  .btn + .btn {
-    margin-left: 10px;
+
+  .description-info {
+    text-transform: none;
+    text-align: justify;
   }
-  
-  .outline {
-    background: transparent;
-    color: rgba(0, 212, 255, 0.9);
-    border: 1px solid rgba(0, 212, 255, 0.6);
-    transition: all .3s ease;
-    
+
+  .tipo {
+    justify-content: left;
   }
-  
-  .outline:hover{
-    transform: scale(1.125);
-    color: rgba(255, 255, 255, 0.9);
-    border-color: rgba(255, 255, 255, 0.9);
-    transition: all .3s ease;  
-  }
-  
-  .fill {
-    background: rgba(0, 212, 255, 0.9);
-    color: rgba(255,255,255,0.95);
-    filter: drop-shadow(0);
-    font-weight: bold;
-    transition: all .3s ease; 
-  }
-  
-  .fill:hover{
-    transform: scale(1.125);  
-    border-color: rgba(255, 255, 255, 0.9);
-    filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
-    transition: all .3s ease;    
-  }
+
+  .div-footer {
+    margin-top: auto;
+}
+  footer{
+    margin-top: auto;
+    background: #1d1c1c;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.repo {
+    text-decoration: none;
+
+}
+
+.repo:visited {
+    color: orange;
+}
