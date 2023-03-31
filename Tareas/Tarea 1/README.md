@@ -5,4 +5,5 @@
 * **about**: Esta página contiene información sobre de que trata la página en si. Esta página es responsiva a cambios de tamaño de pantalla.
 
 > **Navbar**: La navbar es responsiva a los cambios de tamaño de pantalla, cuando se supera un cierto limite de pixeles se oculta el texto y solo se muestra el icono de la hamburguesa, al hacer click en este icono se despliega el menú con las opciones de la navbar.
+
 > **Footer**: El footer es responsivo a los cambios de pantalla. Esta posee información de contacto además de un link a mi repositorio con el codigo fuente de la página en GitHub.
