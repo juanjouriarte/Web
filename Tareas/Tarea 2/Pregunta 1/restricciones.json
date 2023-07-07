@@ -1,0 +1,117 @@
+[
+    {
+        "codigo": "ABC01",
+        "destino": "Ciudad de México",
+        "restriccion": 20
+    },
+    {
+        "codigo": "DEF02",
+        "destino": "Nueva York",
+        "restriccion": 30
+    },
+    {
+        "codigo": "GHI03",
+        "destino": "Londres",
+        "restriccion": 40
+    },
+    {
+        "codigo": "JKL04",
+        "destino": "Tokio",
+        "restriccion": 15
+    },
+    {
+        "codigo": "MNO05",
+        "destino": "Sidney",
+        "restriccion": 50
+    },
+    {
+        "codigo": "PQR06",
+        "destino": "París",
+        "restriccion": 25
+    },
+    {
+        "codigo": "STU07",
+        "destino": "Roma",
+        "restriccion": 35
+    },
+    {
+        "codigo": "VWX08",
+        "destino": "Barcelona",
+        "restriccion": 10
+    },
+    {
+        "codigo": "YZA09",
+        "destino": "Moscú",
+        "restriccion": 45
+    },
+    {
+        "codigo": "BCD10",
+        "destino": "Madrid",
+        "restriccion": 20
+    },
+    {
+        "codigo": "EFG11",
+        "destino": "Berlín",
+        "restriccion": 30
+    },
+    {
+        "codigo": "HIJ12",
+        "destino": "Viena",
+        "restriccion": 40
+    },
+    {
+        "codigo": "KLM13",
+        "destino": "Bruselas",
+        "restriccion": 15
+    },
+    {
+        "codigo": "NOP14",
+        "destino": "Oslo",
+        "restriccion": 50
+    },
+    {
+        "codigo": "QRS15",
+        "destino": "Estocolmo",
+        "restriccion": 25
+    },
+    {
+        "codigo": "TUV16",
+        "destino": "Copenhague",
+        "restriccion": 35
+    },
+    {
+        "codigo": "WXY17",
+        "destino": "Ámsterdam",
+        "restriccion": 10
+    },
+    {
+        "codigo": "ZAB18",
+        "destino": "Dublín",
+        "restriccion": 45
+    },
+    {
+        "codigo": "CDE19",
+        "destino": "Atenas",
+        "restriccion": 20
+    },
+    {
+        "codigo": "FGH20",
+        "destino": "Budapest",
+        "restriccion": 30
+    },
+    {
+        "codigo": "IJK21",
+        "destino": "Praga",
+        "restriccion": 40
+    },
+    {
+        "codigo": "LMN22",
+        "destino": "Varsovia",
+        "restriccion": 15
+    },
+    {
+        "codigo": "OPQ23",
+        "destino": "Lisboa",
+        "restriccion": 50
+    }
+]

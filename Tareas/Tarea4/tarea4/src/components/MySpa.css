@@ -1,0 +1,86 @@
+
+#spa {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+h2 {
+    width: 40%;
+    height: 13%;
+    margin: 0 auto;
+}
+
+#objectBody {
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    height: 30%;
+}
+
+
+.spa_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: #4CAF50;
+}
+
+.button:focus {
+    border: #0f3811 solid 2px;
+}
+
+#next {
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    transform: translate(0, -50%);
+    height: 300px;
+}
+
+#previous {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(0, -50%);
+    height: 300px;
+}
+
+.contador_box p {
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.contador_box {
+   display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.contador_span {
+    display: flex;
+    padding-left: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.id_box {
+    margin-right: 300px;
+}

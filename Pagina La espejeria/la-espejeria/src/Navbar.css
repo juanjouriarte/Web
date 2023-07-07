@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3A3A3A;
+    height: 60px;
+    width: 100%;
+  }
+  
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .ul {
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .li::before {
+    content: "\25C6"; /* this is the Unicode character for diamond */
+    margin-right: 0.5rem;
+  }
+
+  .logo-navbar img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .routes-navbar {
+    width: 40%;
+    height: 100%;
+  }
+
+  .li {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
